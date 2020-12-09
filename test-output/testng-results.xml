@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21294" started-at="2020-12-07T19:18:36 IST" finished-at="2020-12-07T19:18:57 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21294" started-at="2020-12-07T19:18:36 IST" finished-at="2020-12-07T19:18:57 IST">
+      <class name="guru99.guru99_testclass">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:guru99.guru99_testclass@1f36e637]" name="openbrowser" is-config="true" duration-ms="14004" started-at="2020-12-07T19:18:36 IST" finished-at="2020-12-07T19:18:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:guru99.guru99_testclass@1f36e637]" name="TC1" is-config="true" duration-ms="4595" started-at="2020-12-07T19:18:50 IST" finished-at="2020-12-07T19:18:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="verify()[pri:0, instance:guru99.guru99_testclass@1f36e637]" name="verify" duration-ms="187" started-at="2020-12-07T19:18:54 IST" finished-at="2020-12-07T19:18:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:guru99.guru99_testclass@1f36e637]" name="takescreenshot" is-config="true" duration-ms="668" started-at="2020-12-07T19:18:55 IST" finished-at="2020-12-07T19:18:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify status=SUCCESS method=guru99_testclass.verify()[pri:0, instance:guru99.guru99_testclass@1f36e637] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:guru99.guru99_testclass@1f36e637]" name="close_browser" is-config="true" duration-ms="1796" started-at="2020-12-07T19:18:55 IST" finished-at="2020-12-07T19:18:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- guru99.guru99_testclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
